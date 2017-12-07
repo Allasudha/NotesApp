@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="todoapp">
+ <head>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-resource.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="./javascript/todoController.js"></script>
+	<link href="./styles/style.css" rel="stylesheet"/>
+ </head>
+  <body>
+   <div class="container-fluid">
+   <div class="row"><div class="pageheader"><img src="./images/logo.png" style="width:80px;height:80px;margin-top:10px;margin-left:4px;"></div></div>
+    <div class="row" id="wrapper">
+     <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+			   <div style=""><add-Button></add-Button></div>
+          </ul>
+     </div>
+	</div>
+    <div id="contr" ng-controller="todoController">
+    </div>
+   </div>
+  </body>
+   
+</html>

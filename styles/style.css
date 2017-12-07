@@ -1,0 +1,125 @@
+body {
+	background-color: #FFFFFF;
+}
+.pageheader{
+	background-color:#B0F4B2;
+	width:100%;
+}
+.addButton {
+	border: 2px solid #3CA441;
+	background-color: #3CA441;
+	color: #005304;
+	margin-left :28px;
+	margin-top :30px;
+	font-weight:bold;
+	font-size : 30px;
+}
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    
+}
+#sidebar-wrapper {
+	padding-left: 0;
+    position: fixed;
+    height: 100%;
+}
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+	width: 100px;
+    padding: 0;
+	height: 100%;
+    list-style: none;
+	background-color: #B0F4B2;
+}
+.note {
+	background-color : #B0F4B2;
+	margin-top : 10px;
+	margin-left : 10px;
+	font-family : Comic Sans MS;
+	font-weight : bold;
+	width : 240px;
+	height : 240px;
+	display:inline-block;
+	color: #005304;
+	padding :10px;
+	text-overflow:ellipsis;
+	overflow:scroll;
+}
+
+.remove {
+	background-color : #B0F4B2;
+	padding :2px;
+	border:0;
+	font-weight : bold;
+	color: #005304;
+    float:right;
+}
+
+.edit {
+	background-color : #B0F4B2;
+	padding :2px;
+	border:0;
+	font-weight : bold;
+	color: #005304;
+	float:right;
+}
+.save {
+	background-color : #D1B70E;
+	border: 2px;
+	border-radius: 6px;
+	padding :2px;
+	font-weight : bold;
+	float:right;
+	color: #005304;
+}
+
+.editNote {
+	padding :10px;
+	font-family : Comic Sans MS;
+	font-weight : bold;
+	width : 180px;
+	height : 180px;
+	color: #FFFFFF;
+	background-color : #3CA441;
+}
+textarea {resize: none;}
+
+
+.editContainer {
+	
+	font-family : Comic Sans MS;
+	font-weight : bold;
+    width: 190px;
+    height: 190px;
+}
+.insidecontainer {
+	background-color : #B0F4B2;
+	margin-top : 10px;
+	font-family : Comic Sans MS;
+	font-weight : bold;
+	width : 160px;
+	height : 160px;
+	color: #005304;
+	text-overflow:ellipsis;
+	border: 0px;
+	outline:none;
+}
+.save {
+    width: 40px;
+	background-color : #3CA441;
+}
+#contr{
+	margin-left : 6%;
+	margin-top : 1%;
+}
+button:focus {
+  text-decoration: none;
+  outline:none;
+  border: none;
+  box-shadow: none;
+}
